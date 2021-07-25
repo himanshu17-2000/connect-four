@@ -88,7 +88,7 @@ $('.board button').on('click', function () {
         $('h1').text(currentName + " You have Won!")
         $("h2").text("Refresh to play again")
         $('h3').fadeOut(20);
-        $('.container').fadeOut(7000);
+        $('.container').fadeOut(3000);
         console.log(currentName + " You have Won!")
         game_on = false;
     }
